@@ -1,8 +1,8 @@
-Predictive Modeling for Financial Fraud Detection
+# Predictive Modeling for Financial Fraud Detection
 Project Overview
 This project focuses on building a machine learning model to detect fraudulent credit card transactions. Given the nature of financial data, the primary challenge is dealing with a highly imbalanced dataset where the number of fraudulent transactions is significantly lower than legitimate ones. The goal is to develop a model that can accurately identify fraudulent transactions while minimizing false positives.
 
-#Dataset
+# Dataset
 The dataset used is the "Credit Card Fraud Detection" dataset available on Kaggle. It contains transactions made by European cardholders over two days in September 2013.
 
 Source: Kaggle Credit Card Fraud Detection Dataset
@@ -13,7 +13,7 @@ Features: The dataset contains 30 features. Due to confidentiality, 28 of these 
 
 Target Variable: The Class column, where 1 indicates a fraudulent transaction and 0 indicates a legitimate one.
 
-#Key Challenge: Class Imbalance
+# Key Challenge: Class Imbalance
 The dataset is highly imbalanced. Out of 284,807 transactions, only 492 (0.172%) are fraudulent. This imbalance means that a model predicting "not fraud" for every transaction would still achieve over 99.8% accuracy, making accuracy a poor metric for evaluation.
 
 Of course. Here is the content formatted as a professional README.md file. You can copy and paste this directly into the README.md file in your GitHub repository.
@@ -36,32 +36,32 @@ Target Variable: The Class column, where 1 indicates a fraudulent transaction an
 Key Challenge: Class Imbalance
 The dataset is highly imbalanced. Out of 284,807 transactions, only 492 (0.172%) are fraudulent. This imbalance means that a model predicting "not fraud" for every transaction would still achieve over 99.8% accuracy, making accuracy a poor metric for evaluation.
 
-#Project Workflow
-##1.Data Exploration & Visualization: 
+# Project Workflow
+## 1.Data Exploration & Visualization: 
 The initial phase involved understanding the data distribution, checking for null values, and visualizing the differences between fraudulent and legitimate transactions.
 
-##2.Data Preprocessing:
+## 2.Data Preprocessing:
 Scaling: The Amount and Time features were scaled using StandardScaler from Scikit-learn to ensure all features have a similar magnitude.
 
 Handling Imbalance: To address the severe class imbalance, techniques like SMOTE (Synthetic Minority Over-sampling Technique) were likely used to generate synthetic samples for the minority (fraudulent) class.
 
-##3.Model Training:
+## 3.Model Training:
 Several classification algorithms were likely considered, with a powerful gradient boosting model like XGBoost being the primary choice due to its high performance on tabular data.
 
 The data was split into training and testing sets to evaluate the model's performance on unseen data.
 
-##4.Model Evaluation:
+## 4.Model Evaluation:
 Given the class imbalance, metrics like Precision, Recall, and the F1-Score were prioritized over accuracy.
 
 A Confusion Matrix was used to visualize the model's predictions and understand the types of errors it was making (False Positives vs. False Negatives).
 
-#How to Run This Project
+# How to Run This Project
 Follow these steps to set up and run the project on your local machine.
-##1.Prerequisites
+## 1.Prerequisites
 * Python 3.8+
 * Git and Git LFS installed on your system.
 
-##2.Setup Instructions
+## 2.Setup Instructions
 # Clone the repository
 git clone https://github.com/Akash1723/Predictive-Model-for-Financial-Fraud-Detection.git
 
