@@ -86,7 +86,7 @@ git lfs pull
 ### Launch Jupyter Lab or Jupyter Notebook
 jupyter lab
 
-###Note: You will need a requirements.txt file. You can create one with the following content:
+### Note: You will need a requirements.txt file. You can create one with the following content:
 * pandas
 * numpy
 * matplotlib
@@ -96,11 +96,11 @@ jupyter lab
 * jupyterlab
 * imbalanced-learn
 
-#3.Running the Model
+# 3.Running the Model
 * Open the fraud_detection_model.ipynb notebook.
 * Run the cells in the notebook sequentially to see the data processing, model training, and evaluation steps.
 
-#Technologies Used
+# Technologies Used
 Python
 
 Pandas & NumPy for data manipulation
