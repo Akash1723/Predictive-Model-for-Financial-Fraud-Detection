@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+
+# Datasets handled by LFS or to be ignored
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
