@@ -1,4 +1,4 @@
-#Predictive Modeling for Financial Fraud Detection
+Predictive Modeling for Financial Fraud Detection
 Project Overview
 This project focuses on building a machine learning model to detect fraudulent credit card transactions. Given the nature of financial data, the primary challenge is dealing with a highly imbalanced dataset where the number of fraudulent transactions is significantly lower than legitimate ones. The goal is to develop a model that can accurately identify fraudulent transactions while minimizing false positives.
 
